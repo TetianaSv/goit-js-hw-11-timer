@@ -51,6 +51,7 @@ endOfTimer(time) {
 
 
 new CountdownTimer({
+  links: refs,
   selector: '#timer-1',
   targetDate: new Date('Nov 25, 2020 00:00:00'),
 });
